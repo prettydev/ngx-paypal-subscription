@@ -1,0 +1,13 @@
+<h1 style="text-align: center">
+  Subscription Plans(Basic <b>$9/month</b>, Advanced <b>$99/month</b>)
+</h1>
+<ngx-paypal
+  #basic
+  [config]="configs['basic']"
+  [registerScript]="false"
+></ngx-paypal>
+<ngx-paypal
+  #advanced
+  [config]="configs['advanced']"
+  [registerScript]="false"
+></ngx-paypal>
